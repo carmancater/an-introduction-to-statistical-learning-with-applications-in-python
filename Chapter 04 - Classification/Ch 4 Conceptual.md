@@ -11,3 +11,5 @@ Note that $$1 - P(x) = \frac{1}{1 + e^{\beta_0 + \beta_1 X}}$$
 Multiplying both sides of $P(x)$ by $\frac{1}{1 - P(x)}$ yields the desired result
 
 $$\frac{P(x)}{1-P(x)} = e^{\beta_0 + \beta_1 X}$$
+
+## Problem 2
