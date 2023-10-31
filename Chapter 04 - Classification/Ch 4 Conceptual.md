@@ -63,3 +63,4 @@ $$\delta_k(x) = \frac{-1}{2\sigma_k^2}x^2 + \frac{\mu_k}{\sigma_k^2}x - \frac{\m
 Therefore the Bayes Classifier is qudratic in $x$.
 
 ## Problem 4
+
