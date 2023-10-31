@@ -34,7 +34,7 @@ If $x$ is fixed, we simply vary $k$ and choose the maximum. This allows us to dr
 
 ## Problem 3
 
-Recall the quadratic discriminant model (QDA) assumes the observations in each class come from a normal distribution with class specific mean vector and covariance matrix. Take the case $p=1$ (one predictor) and $K$ classes where observations from the $k$th class come from a one-dimensional normal distribution, i.e. $X \sim N(\mu_k, \sigma_k^2)$. The density function for the one-dimensional normal distribution is given by:
+Recall the quadratic discriminant analysis model (QDA) assumes the observations in each class come from a normal distribution with class specific mean vector and covariance matrix. Take the case $p=1$ (one predictor) and $K$ classes where observations from the $k$th class come from a one-dimensional normal distribution, i.e. $X \sim N(\mu_k, \sigma_k^2)$. The density function for the one-dimensional normal distribution is given by:
 
 $$f_k(x) = \frac{1}{\sqrt{2\pi}\sigma_k}e^{\frac{-1}{2\sigma_k^2}}(x - \mu_k)^2$$
 
