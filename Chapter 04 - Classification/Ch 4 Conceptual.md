@@ -34,3 +34,32 @@ If $x$ is fixed, we simply vary $k$ and choose the maximum. This allows us to dr
 
 ## Problem 3
 
+Recall the quadratic discriminant model (QDA) assumes the observations in each class come from a normal distribution with class specific mean vector and covariance matrix. Take the case $p=1$ (one predictor) and $K$ classes where observations from the $k$th class come from a one-dimensional normal distribution, i.e. $X \sim N(\mu_k, \sigma_k^2)$. The density function for the one-dimensional normal distribution is given by:
+
+$$f_k(x) = \frac{1}{\sqrt{2\pi}\sigma_k}e^{\frac{-1}{2\sigma_k^2}}(x - \mu_k)^2$$
+
+We prove the Bayes classifier in this case is quadratic in $x$
+
+**Proof**
+
+The Bayes classifier assigns the test observation to the class with the highest conditional probability, given by:
+
+$$p_k(x) = \frac{\pi_k f_k(x)}{\sum\limits_{l=1}^{K} \pi_l f_l(x)}$$
+
+Substituting in $f_k$ we get:
+
+$$p_k(x) = \frac{\pi_k\frac{1}{\sqrt{2\pi}\sigma_k}e^{\frac{-1}{2\sigma_k^2}}(x - \mu_k)^2}{\sum\limits_{l=1}^{K} \pi_l \frac{1}{\sqrt{2\pi}\sigma_l}e^{\frac{-1}{2\sigma_l^2}}(x - \mu_l)^2}$$
+
+Maximizing this is equivalent to maximizing the logarithm of both sides:
+
+$$\log p_k(x) = \log \pi_k + \log \frac{1}{\sqrt{2\pi}\sigma_k} - \frac{1}{2\sigma_k^2}(x - \mu_k)^2 - \log(\sum\limits_{l=1}^{K} \pi_l \frac{1}{\sqrt{2\pi}\sigma_l}e^{\frac{-1}{2\sigma_l^2}}(x - \mu_l)^2)$$
+
+The logarithm at the end with the summation can be dropped as it is a constant, for fixed $x$ we only care about terms dependent on $k$.
+
+Expanding the right hand side we arrive at our discriminant function:
+
+$$\delta_k(x) = \frac{-1}{2\sigma_k^2}x^2 + \frac{\mu_k}{\sigma_k^2}x - \frac{\mu_k^2}{2\sigma_k^2} - \frac{1}{2}\log\sigma_k^2 + \log\pi_k$$
+
+Therefore the Bayes Classifier is qudratic in $x$.
+
+## Problem 4
