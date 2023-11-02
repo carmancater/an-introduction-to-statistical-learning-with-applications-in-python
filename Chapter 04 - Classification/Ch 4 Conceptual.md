@@ -66,15 +66,15 @@ Therefore the Bayes Classifier is qudratic in $x$.
 
 For $p$ predictors large we illustrate how local approaches to prediction such as KNN deteriorate. This is known as the curse of dimensionality.
 
-**(a)** Let $X$ ($p =1$) be a dataset uniformly distributed on $[0,1]$. Using a local approach to prediction, say we want to use observations within $10\%$ of the range of $X$ closest to an observation. On average we will use $$\frac{1}{10}$$ of the available observations to make a prediction.
+**(a)** Let $X$ ($p =1$) be a dataset uniformly distributed on $[0,1]$. Using a local approach to prediction, say we want to use observations within $10$% of the range of $X$ closest to an observation. On average we will use $$\frac{1}{10}$$ of the available observations to make a prediction.
 
-**(b)** Let $p=2$, $X_1, X_2$ uniformly distributed on $[0,1]\times[0,1]$. Say we want to make predictions using values within $10\%$ of the range of $X_1$ *and* within $10\%$ of the range of $X_2$ closest to a test observation. On average we will use $$\frac{1}{10^2} = \frac{1}{100}$$ of the available observations to make a prediction.
+**(b)** Let $p=2$, $X_1, X_2$ uniformly distributed on $[0,1]\times[0,1]$. Say we want to make predictions using values within $10$% of the range of $X_1$ *and* within $10$% of the range of $X_2$ closest to a test observation. On average we will use $$\frac{1}{10^2} = \frac{1}{100}$$ of the available observations to make a prediction.
 
 **(c)** Let $p=100$ features with the same setup as above. On average we will use $$\frac{1}{10^{100}}$$ of the available observations to make a prediction.
 
 **(d)** For KNN, we see as $p$ grows, the fraction of training observations near any given test observation gets smaller and smaller.
 
-**(e)** Say we wish to make a prediction for a test observation by creating a $p$-dimensional hypercube centered around the observation which contains $10\%$ of the training observations. We explore the side length of the hypercube for $p=1,2,100$.
+**(e)** Say we wish to make a prediction for a test observation by creating a $p$-dimensional hypercube centered around the observation which contains $10$% of the training observations. We explore the side length of the hypercube for $p=1,2,100$.
 
 Let $x$ be the side length.
 
@@ -82,6 +82,6 @@ Let $x$ be the side length.
 - $p=2$: $x^2 = 0.1$ so $x = \sqrt{0.1} \approx 0.32$
 - $p=100$: $x^{100} = 0.1$ so $x = \sqrt[100]{0.1} \approx 0.98$
 
-We see as the dimension grows, in order to capture just $10\%$ of the training observations with a hypercube centered around our test point, the side length of the hypercube stretches almost to the boundary in every direction.
+We see as the dimension grows, in order to capture just $10$% of the training observations with a hypercube centered around our test point, the side length of the hypercube stretches almost to the boundary in every direction.
 
 ## Problem 5
