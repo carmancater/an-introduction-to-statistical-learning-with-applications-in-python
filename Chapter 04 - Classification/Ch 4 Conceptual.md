@@ -85,3 +85,16 @@ Let $x$ be the side length.
 We see as the dimension grows, in order to capture just $10$% of the training observations with a hypercube centered around our test point, the side length of the hypercube stretches almost to the boundary in every direction.
 
 ## Problem 5
+
+Consider Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis (QDA).
+
+**(a)** If the Bayes decision boundary is linear we expect QDA to perform better on the training set since it is more flexible of a fit. On the test set we expect LDA to perform better in general since QDA may overfit the noise in the training set.
+
+**(b)** If the Bayes decision boundary is non-linear we expect QDA to perform better on the training set since it is more flexible of a fit. QDA will also perform better on the test set since it can more naturally fit the curvature present in the population.
+
+**(c)** In general as the sample size $n$ increases we expect test prediction accuracy of QDA to improve relative to LDA.
+
+**(d)** False. If the Bayes decision boundary is linear, even though QDA performs better on training data, it may overfit noise and thus perform worse on the test data.
+
+## Problem 6
+
