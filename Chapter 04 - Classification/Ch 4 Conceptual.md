@@ -98,3 +98,8 @@ Consider Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis 
 
 ## Problem 6
 
+Take a fictional class of students. Let $X_1 =$ hours studied, $X_2 =$ undergrad GPA, and $Y =$ receive an A. Suppose we fit a model using logistic regression and produce $\hat{\beta_0} = -6$, $\hat{\beta_1} = 0.05$, $\hat{\beta_2} = 1$.
+
+**(a)** Probability a student receives an A given 40 hours of study and undergrad GPA 3.5
+
+$$P(40, 3.5) = \frac{e^{-6 + 0.05(40) + 3.5}}{1 + e^{-6 + 0.05(40) + 3.5}} \approx 0.3775 = 37.75\%$$
