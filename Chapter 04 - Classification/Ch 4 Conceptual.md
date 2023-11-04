@@ -26,11 +26,11 @@ $$\delta_k(x) = x\cdot\frac{\mu_k}{\sigma^2} - \frac{\mu_k^2}{2\sigma^2} + \log\
 
 **Proof**
 
-Taking the natural logarithm of both sides of the first equation yeilds:
+Taking the natural logarithm of both sides of the first equation yields:
 
 $$\log p_k(x) = \frac{\log\pi_k + \log\frac{1}{\sqrt{2\pi}\sigma} - \frac{1}{2\sigma^2}(x - \mu_k)^2}{\log(\sum\limits_{l=1}^{K} \pi_l \frac{1}{\sqrt{2\pi}\sigma}e^{\frac{-1}{2\sigma^2}}(x - \mu_l)^2)}$$
 
-If $x$ is fixed, we simply vary $k$ and choose the maximum. This allows us to drop all terms that do not involve $k$. In particular the denominator goes away, and the $\log$ constant term in the numerator goes away. Expanding the quadratic term in the numerator and rearranging yeilds the desired result.
+If $x$ is fixed, we simply vary $k$ and choose the maximum. This allows us to drop all terms that do not involve $k$. In particular the denominator goes away, and the $\log$ constant term in the numerator goes away. Expanding the quadratic term in the numerator and rearranging yields the desired result.
 
 ## Problem 3
 
@@ -114,7 +114,7 @@ Dividing the numerator and denominator of the left hand side by $e^{-6 + 0.05X_1
 
 $$\frac{1}{\frac{1}{e^{-6 + 0.05X_1 + 3.5}} + 1} = 0.5$$
 
-Dividing through both sides by 0.5 and multiplying both sides by the denominator of the left hand side, and simplifying yeilds:
+Dividing through both sides by 0.5 and multiplying both sides by the denominator of the left hand side, and simplifying yields:
 
 $$e^{-6 + 0.05X_1 + 3.5} = 1$$
 
