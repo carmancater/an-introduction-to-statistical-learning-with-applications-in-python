@@ -102,4 +102,4 @@ Take a fictional class of students. Let $X_1 =$ hours studied, $X_2 =$ undergrad
 
 **(a)** Probability a student receives an A given 40 hours of study and undergrad GPA 3.5
 
-$$P(40, 3.5) = \frac{e^{-6 + 0.05(40) + 3.5}}{1 + e^{-6 + 0.05(40) + 3.5}} \approx 0.3775 = 37.75\%$$
+$$P(40, 3.5) = \frac{e^{-6 + 0.05(40) + 3.5}}{1 + e^{-6 + 0.05(40) + 3.5}} \approx 0.3775 = 37.75\text{%}$$
