@@ -104,4 +104,20 @@ Take a fictional class of students. Let $X_1 =$ hours studied, $X_2 =$ undergrad
 
 $$P(40, 3.5) = \frac{e^{-6 + 0.05(40) + 3.5}}{1 + e^{-6 + 0.05(40) + 3.5}} \approx 0.3775$$
 
-There is a 37.35% chance.
+There is a 37.75% chance.
+
+**(b)** Given an undergrad GPA of 3.5, the number of hours needed to study to have a 50% chance of receiving an A is:
+
+$$\frac{e^{-6 + 0.05X_1 + 3.5}}{1 + e^{-6 + 0.05X_1 + 3.5}} = 0.5$$
+
+Dividing the numerator and denominator of the left hand side by $e^{-6 + 0.05X_1 + 3.5}$ yields:
+
+$$\frac{1}{\frac{1}{e^{-6 + 0.05X_1 + 3.5}} + 1} = 0.5$$
+
+Dividing through both sides by 0.5 and multiplying both sides by the denominator of the left hand side, and simplifying yeilds:
+
+$$e^{-6 + 0.05X_1 + 3.5} = 1$$
+
+This implies $-6 + 0.05X_1 + 3.5 = 0$ giving us $X_1 = 50$ hours of study required.
+
+## Problem 7
