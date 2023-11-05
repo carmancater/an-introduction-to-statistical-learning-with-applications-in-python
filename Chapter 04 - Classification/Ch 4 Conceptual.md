@@ -122,7 +122,7 @@ This implies $-6 + 0.05X_1 + 3.5 = 0$ giving us $X_1 = 50$ hours of study requir
 
 ## Problem 7
 
-We predict whether a given stock will issue a dividend ("Yes", "No") given last year's percent profit $X$. Suppose $\bar{X}_{Yes} = 10$, $\bar{X}_{No} = 0$, $\hat{\sigma^2}_{Yes} = \hat{\sigma^2}_{No} = 36$ and $80$% of the companies issued dividends (i.e. $\pi_{Yes} = 0.8$, $\pi_{No} = 0.2$). Assuming $X$ follows a normal distribution, predict whether a company will issue a dividend given last years percent profit was $X=4$.
+We predict whether a given stock will issue a dividend ("Yes", "No") given last year's percent profit $X$. Suppose $\bar{X_{Yes}} = 10$, $\bar{X_{No}} = 0$, $\hat{\sigma^2_{Yes}} = \hat{\sigma^2_{No}} = 36$ and $80$% of the companies issued dividends (i.e. $\pi_{Yes} = 0.8$, $\pi_{No} = 0.2$). Assuming $X$ follows a normal distribution, predict whether a company will issue a dividend given last years percent profit was $X=4$.
 
 **Solution**
 
