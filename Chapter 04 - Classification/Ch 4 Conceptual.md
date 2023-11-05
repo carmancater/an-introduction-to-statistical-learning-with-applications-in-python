@@ -121,3 +121,25 @@ $$e^{-6 + 0.05X_1 + 3.5} = 1$$
 This implies $-6 + 0.05X_1 + 3.5 = 0$ giving us $X_1 = 50$ hours of study required.
 
 ## Problem 7
+
+We predict whether a given stock will issue a dividend ("Yes", "No") given last year's percent profit $X$. Suppose $\bar{X}_{Yes} = 10$, $\bar{X}_{No} = 0$, $\hat{\sigma^2}_{Yes} = \hat{\sigma^2}_{No} = 36$ and $80$% of the companies issued dividends (i.e. $\pi_{Yes} = 0.8$, $\pi_{No} = 0.2$). Assuming $X$ follows a normal distribution, predict whether a company will issue a dividend given last years percent profit was $X=4$.
+
+**Solution**
+
+We will use LDA classifier since the observations in each class come from a Gaussian (normal) distribution with class specific mean and common variance.
+
+Recall the density function for a normal random variable is
+
+$$f(x) = \frac{1}{\sqrt{2\pi}\sigma}e^{-(x-\mu)^2 / 2\sigma^2}$$ 
+
+Combining this with Bayes' Theorem
+
+$$Pr(Y=k | X=x) = \frac{\pi_k f_k(x)}{\sum\limits_{l=1}^{K} \pi_l f_l(x)}$$
+
+yields
+
+$$P_{Yes}(4) = \frac{(0.8)\frac{1}{\sqrt{2\pi}(6)}e^{\frac{-1}{2(36)}(4-10)^2}}{(0.8)\frac{1}{\sqrt{2\pi}(6)}e^{\frac{-1}{2(36)}(4-10)^2} + (0.2)\frac{1}{\sqrt{2\pi}(6)}e^{\frac{-1}{2(36)}(4-0)^2}} \approx 0.7519$$
+
+Thus we predict there is a $75.19$% chance of this company issuing a dividend.
+
+## Problem 8
