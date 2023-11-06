@@ -168,3 +168,6 @@ $$odds = \frac{0.16}{1-0.16} = \frac{4}{21}$$
 
 ## Problem 10
 
+We derive an expression for 
+
+$$\log\big(\frac{Pr(Y=k | X=x)}{Pr(Y=K | X=x)}\big)$$
