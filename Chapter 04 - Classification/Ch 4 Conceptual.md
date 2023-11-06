@@ -171,3 +171,20 @@ $$odds = \frac{0.16}{1-0.16} = \frac{4}{21}$$
 We derive an expression for 
 
 $$\log\big(\frac{Pr(Y=k | X=x)}{Pr(Y=K | X=x)}\big)$$
+
+in the case $p = 1$.
+
+**Solution**
+
+$$\log\big(\frac{Pr(Y=k | X=x)}{Pr(Y=K | X=x)}\big) = \log\big(\frac{\pi_k f_k(x)}{\pi_K f_K(x)}\big)$$
+
+with $f_k, f_K$ Gaussian density functions.
+
+$$= \log\big(\frac{\pi_k e^{\frac{-1}{2\sigma^2}(x-\mu_k)^2}}{\pi_K e^{\frac{-1}{2\sigma^2}(x-\mu_K)^2}}\big) = \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{1}{2\sigma^2}\big(-2x\mu_K + \mu_K^2 + 2x\mu_k - \mu_k^2\big)$$
+
+$$= \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{\mu_K^2 - \mu_k^2}{2\sigma^2} + \frac{\mu_k - \mu_K}{\sigma^2}x = a_k + b_k x$$
+
+where $a_k = \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{\mu_K^2 - \mu_k^2}{2\sigma^2}$ and $b_k =  \frac{\mu_k - \mu_K}{\sigma^2}$ 
+
+## Problem 11
+
