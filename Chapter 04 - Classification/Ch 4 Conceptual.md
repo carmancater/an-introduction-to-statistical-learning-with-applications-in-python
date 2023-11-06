@@ -143,3 +143,28 @@ $$P_{Yes}(4) = \frac{(0.8)\frac{1}{\sqrt{2\pi}(6)}e^{\frac{-1}{2(36)}(4-10)^2}}{
 Thus we predict there is a $75.19$% chance of this company issuing a dividend.
 
 ## Problem 8
+
+Take a data set, divide it into equally-sized training and test sets. Suppose we fit a logistic regression model with training error rate $20$%, test error rate $30$%. Now fit a KNN model with $K=1$ and suppose the average error rate (over both train and test sets) is $18$%. Which method should we prefer to use for classification of new data?
+
+**Solution** For $K=1$, the KNN training error rate will be $0$% since for each training observation, we simply assign it to the same class given for that observation. Since in the problem the average error rate is $18$%, this implies the test error rate was $36$%. Since we want to use the model with the smaller test error rate, we choose to go with the logistic regression model.
+
+## Problem 9
+
+Recall that
+
+$$odds = \frac{p(X)}{1 - P(X)}$$ 
+
+giving us
+
+$$P(X) = \frac{odds}{1 + odds}$$
+
+**(a)** On average, the fraction of people with an odds of $0.37$ of defaulting on their credit card payment that will in fact default is:
+
+$$ P(X) = \frac{0.37}{1 + 0.37} = \frac{37}{137}$$
+
+**(b)** The odds of daulting of an individual who has a $16$% chance of defaulting on their credit card payment is:
+
+$$odds = \frac{0.16}{1-0.16} = \frac{4}{21}$$
+
+## Problem 10
+
