@@ -152,7 +152,7 @@ Take a data set, divide it into equally-sized training and test sets. Suppose we
 
 Recall that
 
-$$odds = \frac{p(X)}{1 - P(X)}$$ 
+$$odds = \frac{P(X)}{1 - P(X)}$$ 
 
 giving us
 
