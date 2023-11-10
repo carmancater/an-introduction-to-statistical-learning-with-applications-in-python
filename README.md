@@ -1,4 +1,4 @@
-![ISLP](/assets/img/islp.jpg){: .mx-auto.d-block :}
+![ISLP](https://github.com/carmancater/carmancater.github.io/blob/main/assets/img/islp.jpg){: .mx-auto.d-block :}
 
 ## :book: An Introduction to Statistical Learning with Applications in Python (ISLP) Solutions
 
