@@ -198,6 +198,10 @@ $$f_k(x) = \frac{1}{(2\pi)^{\frac{p}{2}} |\sum_k|^{\frac{1}{2}}}e^{\frac{-1}{2}(
 
 Plugging this into the log odds:
 
-$$\log\big(\frac{Pr(Y=k | X=x)}{Pr(Y=K | X=x)}\big) = \log\big(\frac{\pi_k f_k(x)}{\pi_K f_K(x)}\big) = \log\big(\frac{\pi_k}{\pi_K}\cdot\frac{|\sum_K|^{\frac{1}{2}}}{|\sum_k|^{\frac{1}{2}}}\cdot\frac{e^{\frac{-1}{2}(x-\mu_k)^T {\sum_k}^{-1}(x-\mu_k)}}{e^{\frac{-1}{2}(x-\mu_K)^T {\sum_K}^{-1}(x-\mu_K)}}\big)$$
+$$\log\big(\frac{Pr(Y=k | X=x)}{Pr(Y=K | X=x)}\big) = \log\big(\frac{\pi_k f_k(x)}{\pi_K f_K(x)}\big) = \log\big(\frac{\pi_k}{\pi_K}\cdot\frac{|\sum_K|^{\frac{1}{2}}}{|\sum_k|^{\frac{1}{2}}}\cdot\frac{e^{\frac{-1}{2}(x-\mu_k)^T {\sum_k}^{-1}(x-\mu_k)}}{e^{\frac{-1}{2}(x-\mu_K)^T {\sum_K}^{-1}(x-\mu_K)}}\big) =$$
 
-$$= \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{1}{2}\log\big|{\sum}_K\big| - \frac{1}{2}\log\big|{\sum}_k\big| - \frac{1}{2}(x-\mu_k)^T {\sum}_k^{-1}(x-\mu_k) + \frac{1}{2}(x-\mu_K)^T {\sum}_K^{-1}(x-\mu_K)$$
+$$= \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{1}{2}\log\big|{\sum}_K\big| - \frac{1}{2}\log\big|{\sum}_k\big| - \frac{1}{2}(x-\mu_k)^T {\sum}_k^{-1}(x-\mu_k) + \frac{1}{2}(x-\mu_K)^T {\sum}_K^{-1}(x-\mu_K) =$$
+
+Using distributivity of matrix multiplication and simplifying yields
+
+$$= $$
