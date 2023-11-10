@@ -200,4 +200,4 @@ Plugging this into the log odds:
 
 $$\log\big(\frac{Pr(Y=k | X=x)}{Pr(Y=K | X=x)}\big) = \log\big(\frac{\pi_k f_k(x)}{\pi_K f_K(x)}\big)$$
 
-
+$$= \log\big(\frac{\pi_k}{\pi_K}\cdot\frac{|\sum_K|^{\frac{1}{2}}}{|\sum_k|^{\frac{1}{2}}}\big)$$
