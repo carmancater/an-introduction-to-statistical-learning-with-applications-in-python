@@ -205,3 +205,15 @@ $$= \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{1}{2}\log\big|{\sum}_K\big| - \fra
 Using distributivity of matrix multiplication and simplifying yields
 
 $$= \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{1}{2}\log\big|{\sum}_K\big| - \frac{1}{2}\log\big|{\sum}_k\big| + \frac{1}{2}\mu_K^T{\sum}_K^{-1}\mu_K - \frac{1}{2}\mu_k^T{\sum}_k^{-1}\mu_k + x^T\big({\sum}_k^{-1}\mu_k - {\sum}_K^{-1}\mu_K\big) + x^T\frac{1}{2}\big({\sum}_K^{-1} - {\sum}_k^{-1}\big)x$$
+
+$$= a_k + \sum\limits_{j=1}^{p} b_{kj}x_j + \sum\limits_{j=1}^{p}\sum\limits_{l=1}^{p} c_{kjl}x_jx_l$$
+
+Where 
+
+$a_k = \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{1}{2}\log\big|{\sum}_K\big| - \frac{1}{2}\log\big|{\sum}_k\big| + \frac{1}{2}\mu_K^T{\sum}_K^{-1}\mu_K - \frac{1}{2}\mu_k^T{\sum}_k^{-1}\mu_k$
+
+$b_{kj} = {\sum}_k^{-1}\mu_k - {\sum}_K^{-1}\mu_K$ is the $j^{th}$ entry of right-hand vector
+
+$c_{kjl} = \frac{1}{2}\big({\sum}_K^{-1} - {\sum}_k^{-1}\big)$ is the $(j, l)$ entry of right-hand matrix
+
+## Problem 12
