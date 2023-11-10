@@ -188,3 +188,8 @@ where $a_k = \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{\mu_K^2 - \mu_k^2}{2\sigm
 
 ## Problem 11
 
+We work out the detailed form of the log odds of the posterior probabilities for QDA.
+
+**Solution**
+
+
