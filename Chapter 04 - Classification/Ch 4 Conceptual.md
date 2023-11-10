@@ -194,7 +194,7 @@ We work out the detailed form of the log odds of the posterior probabilities for
 
 Recall for the $k^{th}$ class the multivariate Gaussian density function is defined as
 
-$$f_k(x) = \frac{1}{(2\pi)^{\frac{p}{2}} |\sum_k|^{\frac{1}{2}}}e^{\frac{-1}{2}(x-\mu_k)^T \sum_k^{-1}(x-\mu_k)}$$
+$$f_k(x) = \frac{1}{(2\pi)^{\frac{p}{2}} |\sum_k|^{\frac{1}{2}}}e^{\frac{-1}{2}(x-\mu_k)^T {\sum_k}^{-1}(x-\mu_k)}$$
 
 Plugging this into the log odds:
 
