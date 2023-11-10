@@ -172,7 +172,7 @@ We derive an expression for
 
 $$\log\big(\frac{Pr(Y=k | X=x)}{Pr(Y=K | X=x)}\big)$$
 
-in the case $p = 1$.
+in the case $p = 1$ for LDA.
 
 **Solution**
 
@@ -191,5 +191,13 @@ where $a_k = \log\big(\frac{\pi_k}{\pi_K}\big) + \frac{\mu_K^2 - \mu_k^2}{2\sigm
 We work out the detailed form of the log odds of the posterior probabilities for QDA.
 
 **Solution**
+
+Recall for the $k^{th}$ class the multivariate Gaussian density function is defined as
+
+$$f_k(x) = \frac{1}{(2\pi)^{\frac{p}{2}} |\sum_k|^{\frac{1}{2}}}e^{\frac{-1}{2}(x-\mu_k)^T \sum_k^{-1}(x-\mu_k)}$$
+
+Plugging this into the log odds:
+
+$$\log\big(\frac{Pr(Y=k | X=x)}{Pr(Y=K | X=x)}\big) = \log\big(\frac{\pi_k f_k(x)}{\pi_K f_K(x)}\big)$$
 
 
