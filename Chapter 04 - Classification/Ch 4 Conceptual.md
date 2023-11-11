@@ -224,4 +224,4 @@ $$\hat{Pr}(Y = orange | X=x) = \frac{e^{\hat{\beta_0} + \hat{\beta_1}x}}{1 + e^{
 
 Another logistic regression model is fit using the same data using the *softmax* formulation giving
 
-$$\hat{Pr}(Y = orange | X=x) = \frac{e^{\hat{\alpha}_{orange0} + \hat{\alpha}_{orange1}x}}{e^{\hat{\alpha}_{orange0} + \hat{\alpha}_{orange1}x} + e^{\hat{\alpha}_{apple0} + \hat{\alpha}_{apple1}x}}$$
+$$\hat{Pr}(Y = orange | X=x) = \frac{e^{\hat{\alpha_{orange0}} + \hat{\alpha_{orange1}}x}}{e^{\hat{\alpha_{orange0}} + \hat{\alpha_{orange1}}x} + e^{\hat{\alpha_{apple0}} + \hat{\alpha_{apple1}}x}}$$
