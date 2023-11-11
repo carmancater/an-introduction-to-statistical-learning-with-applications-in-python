@@ -217,3 +217,5 @@ $b_{kj} = {\sum}_k^{-1}\mu_k - {\sum}_K^{-1}\mu_K$ is the $j^{th}$ entry of righ
 $c_{kjl} = \frac{1}{2}\big({\sum}_K^{-1} - {\sum}_k^{-1}\big)$ is the $(j, l)$ entry of right-hand matrix
 
 ## Problem 12
+
+Classify an observation $X \in \mathbb{R}$
