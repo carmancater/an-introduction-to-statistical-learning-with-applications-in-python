@@ -218,4 +218,6 @@ $c_{kjl} = \frac{1}{2}\big({\sum}_K^{-1} - {\sum}_k^{-1}\big)$ is the $(j, l)$ e
 
 ## Problem 12
 
-Classify an observation $X \in \mathbb{R}$
+Classify an observation $X \in \mathbb{R}$ into $apples$ and $oranges$. Suppose a logistic regression model is fit such that
+
+$$\hat{Pr}(Y = orange | X=x) = \frac{e^{\hat{\beta_0} + \hat{\beta_1}x}}{}$$
