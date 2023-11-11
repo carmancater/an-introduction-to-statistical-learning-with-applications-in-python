@@ -242,8 +242,22 @@ $$\log\big(\frac{\hat{Pr}(Y = orange | X=x)}{\hat{Pr}(Y = apple | X=x)}\big) = \
 
 $$\log\big(\frac{\hat{Pr}(Y = orange | X=x)}{\hat{Pr}(Y = apple | X=x)}\big) = (\hat{\alpha_{orange0}} - \hat{\alpha_{apple0}}) + (\hat{\alpha_{orange1}} - \hat{\alpha_{apple1}})x$$
 
-**(c)** If in the first model $\hat{\beta_0} = 2$ and $\hat{\beta_1} = -1$
+**(c)** If in the first model $\hat{\beta_0} = 2$ and $\hat{\beta_1} = -1$ then the coefficients in the second model must satisfy the equation
 
-**(d)**
+$$2 - x = (\hat{\alpha_{orange0}} - \hat{\alpha_{apple0}}) + (\hat{\alpha_{orange1}} - \hat{\alpha_{apple1}})x$$
 
-**(e)**
+Therefore any choice of numbers satisfying the system
+
+$$\hat{\alpha_{orange0}} - \hat{\alpha_{apple0}} = 2$$
+
+$$\hat{\alpha_{orange1}} - \hat{\alpha_{apple1}} = -1$$
+
+works.
+
+**(d)** If in the second model we get $\hat{\alpha_{orange0}} = 1.2$, $\hat{\alpha_{orange1}} = -2$, $\hat{\alpha_{apple0}} = 3$, $\hat{\alpha_{apple1}} = 0.6$ then using the system of two equations from part **(c)** gives us 
+
+$$\hat{\beta_0} = -1.8$$
+
+$$\hat{\beta_1} = -2.6$$
+
+**(e)** If we apply both models to a data set, the predicted class labels will agree 100% of the time since the two models are equal.
