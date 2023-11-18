@@ -26,4 +26,4 @@ As a display of learning and reinforcement of concepts you will find below exerc
     - Conceptual
         - [Solutions](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Conceptual.md)
     - Applied
-        - [Exercise 13](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Ex%2013.ipynb){:target="_blank"}
+        - [Exercise 13](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Ex%2013.ipynb)
