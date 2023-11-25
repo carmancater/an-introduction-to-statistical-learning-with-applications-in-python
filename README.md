@@ -26,6 +26,4 @@ As a display of learning and reinforcement of concepts you will find below exerc
     - Conceptual
         - [Solutions](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Conceptual.md)
     - Applied
-        - [Exercise 13](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Ex%2013.ipynb)
-        - [Exercise 14](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Ex%2014.ipynb)
-        - [Exercise 15](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Ex%2015.ipynb)
+        - [Exercise 13](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Ex%2013.ipynb), [Exercise 14](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Ex%2014.ipynb), [Exercise 15](https://github.com/carmancater/an-introduction-to-statistical-learning-with-applications-in-python/blob/main/Chapter%2004%20-%20Classification/Ch%204%20Ex%2015.ipynb)
