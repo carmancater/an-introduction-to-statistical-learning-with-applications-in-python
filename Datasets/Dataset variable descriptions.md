@@ -11,7 +11,7 @@
 - **name:** Vehicle name
 
 # Boston Data
-**506 observations on the following 14 variables.**
+**506 observations on the following 13 variables.**
 - **crim:** per capita crime rate by town
 - **zn:** proportion of residential land zoned for lots over 25,000 sq.ft.
 - **indus:** proportion of non-retail business acres per town
