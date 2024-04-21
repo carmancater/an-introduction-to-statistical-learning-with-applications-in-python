@@ -9,7 +9,7 @@ The text covers mathematical and statistical theory of machine learning as well 
 Note: The text assumes a moderate level of mathematical maturity and features an earlier edition with labs written in the statistical language R.
 
 ### :scroll: Original solutions to the exercises
-As a display of learning and reinforcement of concepts you will find below exercise solutions written in JupyterLab using Python and Markdown hosted on GitHub.
+As a reinforcement of concepts you will find exercise solutions below written in JupyterLab using Python and Markdown hosted on GitHub.
 
 - **Chapter 2: Statistical Learning**
     - Topics: What Is Statistical Learning?, Assessing Model Accuracy
